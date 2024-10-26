@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="app">
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="SERIAL_NUMBER" />
+                  <value value="626a66fa" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-10-26T07:13:12.095570800Z" />
+        </State>
+      </entry>
+    </value>
+  </component>
+</project>

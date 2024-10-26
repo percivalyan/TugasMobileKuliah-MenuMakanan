@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Makanan"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Menu 1: Nasi Goreng -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/img_nasi_goreng"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:contentDescription="Nasi Goreng"
+                android:src="@drawable/_w83zosucbx67ts" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/tv_nasi_goreng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nasi Goreng"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tv_price_nasi_goreng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 20.000"
+                    android:textSize="16sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_decrease_nasi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"/>
+
+                    <TextView
+                        android:id="@+id/tv_quantity_nasi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"/>
+
+                    <Button
+                        android:id="@+id/btn_increase_nasi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Menu 2: Bakso -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/img_bakso"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:contentDescription="Bakso"
+                android:src="@drawable/_71857300_1553761217_shutterstock_1148354906" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/tv_bakso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bakso"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tv_price_bakso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 15.000"
+                    android:textSize="16sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_decrease_bakso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"/>
+
+                    <TextView
+                        android:id="@+id/tv_quantity_bakso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"/>
+
+                    <Button
+                        android:id="@+id/btn_increase_bakso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Menu 3: Mie Ayam -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/img_mie_ayam"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:contentDescription="Mie Ayam"
+                android:src="@drawable/_438d1d8bc59b" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/tv_mie_ayam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mie Ayam"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tv_price_mie_ayam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 18.000"
+                    android:textSize="16sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_decrease_mie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"/>
+
+                    <TextView
+                        android:id="@+id/tv_quantity_mie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"/>
+
+                    <Button
+                        android:id="@+id/btn_increase_mie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Button untuk Beli -->
+        <Button
+            android:id="@+id/btn_beli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beli"/>
+    </LinearLayout>
+</LinearLayout>
